@@ -8,7 +8,7 @@ With the access to the complete data from their most recent animal study. In thi
 
 The **Mouse_metadata** csv file contains `Mouse ID`,`Drug Regimen`, `Sex`, `Age_months`, and `Weight (g)`; the **Study_Result** csv file contains `Mouse ID`, `Timepoint`, `Tumor Volume (mm3)`, and `Metastatic Sites`. 
 
-![Laboratory]()
+![Laboratory](https://github.com/PeiDay/Matplotlib-Challenge/blob/main/Pymaceuticals/Images/Laboratory.jpg)
 
 ## Drug regimens and Tumor volume study
 
@@ -18,25 +18,25 @@ Merge the given data from two csv files. In order to get clean data, we started 
 
 * Drug Regimen bar plot shows the total number of timepoints for all mice tested for each drug regimen throughout the course of the study:
 
-![Drug regimen by pyplot]()
+![Drug regimen by pyplot](https://github.com/PeiDay/Matplotlib-Challenge/blob/main/Pymaceuticals/Images/Drug%20regimen%20by%20pyplot.png)
 
 * Mice Gender pie plot shows the distribution of female or male mice in the study:
 
-![Mice gender by pyplot]()
+![Mice gender by pyplot](https://github.com/PeiDay/Matplotlib-Challenge/blob/main/Pymaceuticals/Images/Mice%20gender%20by%20pyplot.png)
 
 * Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin.  Identify any potential outliers across all four treatment regimens by calculating the quartiles, IQR, and quantitatively. The result is presented by the Final tumor volumn boxplot:
 
-![Final tumor volume boxplot]
+![Final tumor volume boxplot](https://github.com/PeiDay/Matplotlib-Challenge/blob/main/Pymaceuticals/Images/Final%20tumor%20volume%20boxplot.png)
 
 * Randomly select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse. **Outcome various due to the ramdom selection**
     * In order to observe the Capomulin treatment influence on tumor volume vs. time point, I selected  a sample size of 5 mice:  
 
-![Samples Time vs Vol line plot]
+![Samples Time vs Vol line plot](https://github.com/PeiDay/Matplotlib-Challenge/blob/main/Pymaceuticals/Images/Samples%20Time%20vs%20Vol%20line%20plot.png)
 
 * The correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment.  The linear regression model and Capomulin treatment regimen tumor volume versus mouse weight scatter plot:
 
-![Weight vs Vol scatter plot]
-![Linear regression model]
+![Weight vs Vol scatter plot](https://github.com/PeiDay/Matplotlib-Challenge/blob/main/Pymaceuticals/Images/Weight%20vs%20Vol%20scatter%20plot.png)
+![Linear regression model](https://github.com/PeiDay/Matplotlib-Challenge/blob/main/Pymaceuticals/Images/Linear%20regression%20model.png)
 
 ## Observations or inferences:
     This is also included at the top of notebook.
