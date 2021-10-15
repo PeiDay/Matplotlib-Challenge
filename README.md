@@ -1,5 +1,7 @@
 # Matplotlib - The Power of Plots :mouse2:
 
+![Laboratory](https://github.com/PeiDay/Matplotlib-Challenge/blob/main/Pymaceuticals/Images/Laboratory.jpg)
+
 ## Background
 
 Pymaceuticals Inc., a burgeoning pharmaceutical company based out of San Diego. Pymaceuticals specializes in anti-cancer pharmaceuticals. In its most recent efforts, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
@@ -8,7 +10,6 @@ With the access to the complete data from their most recent animal study. In thi
 
 The **Mouse_metadata** csv file contains `Mouse ID`,`Drug Regimen`, `Sex`, `Age_months`, and `Weight (g)`; the **Study_Result** csv file contains `Mouse ID`, `Timepoint`, `Tumor Volume (mm3)`, and `Metastatic Sites`. 
 
-![Laboratory](https://github.com/PeiDay/Matplotlib-Challenge/blob/main/Pymaceuticals/Images/Laboratory.jpg)
 
 ## Drug regimens and Tumor volume study
 
@@ -28,7 +29,7 @@ Merge the given data from two csv files. In order to get clean data, we started 
 
 ![Final tumor volume boxplot](https://github.com/PeiDay/Matplotlib-Challenge/blob/main/Pymaceuticals/Images/Final%20tumor%20volume%20boxplot.png)
 
-* Randomly select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse. **Outcome various due to the ramdom selection**
+* Randomly select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse. **_Outcome various due to the ramdom selection_**.
     * In order to observe the Capomulin treatment influence on tumor volume vs. time point, I selected  a sample size of 5 mice:  
 
 ![Samples Time vs Vol line plot](https://github.com/PeiDay/Matplotlib-Challenge/blob/main/Pymaceuticals/Images/Samples%20Time%20vs%20Vol%20line%20plot.png)
