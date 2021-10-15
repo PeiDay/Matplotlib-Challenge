@@ -29,7 +29,7 @@ Merge the given data from two csv files. In order to get clean data, we started 
 
 ![Final tumor volume boxplot](https://github.com/PeiDay/Matplotlib-Challenge/blob/main/Pymaceuticals/Images/Final%20tumor%20volume%20boxplot.png)
 
-* Randomly select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse. **_Outcome various due to the ramdom selection_**.
+* Randomly select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse. **_Outcome various due to the random selection_**.
     * In order to observe the Capomulin treatment influence on tumor volume vs. time point, I selected  a sample size of 5 mice:  
 
 ![Samples Time vs Vol line plot](https://github.com/PeiDay/Matplotlib-Challenge/blob/main/Pymaceuticals/Images/Samples%20Time%20vs%20Vol%20line%20plot.png)
